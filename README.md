@@ -16,7 +16,7 @@ A simple REST API for managing student records. It allows you to add, view, upda
 
 **Technologies Used:** FastAPI, Pydantic, Uvicorn, UUID, Datetime
 
-🔗 [View Student Management API README](path_to_student_management_api_readme)
+🔗 [View Student Management API README](Student-Management-API/README.md)
 
 ---
 
