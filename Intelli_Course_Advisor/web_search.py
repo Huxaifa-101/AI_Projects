@@ -2,7 +2,7 @@ from tavily import TavilyClient
 
 # Initialize Tavily client with API key
 # You can also set the key as an environment variable instead of hardcoding
-client = TavilyClient(api_key="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")
+client = TavilyClient(api_key="TAVILY_API_KEY")
 
 def tavily_search(query: str) -> str:
     """
@@ -26,3 +26,4 @@ def tavily_search(query: str) -> str:
 
     # format results as "Title: URL" per line
     return "\n".join([f"{item['title']}: {item['url']}" for item in results])
+
