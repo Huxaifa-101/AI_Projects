@@ -24,7 +24,7 @@ web_search = tavily_search  # already a function
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash", 
     temperature=0,
-    google_api_key="AIzaSyBW1yyKiOtIy5QhXNo1ZaGGFrRbKLopPQY"   # 👈 pass key directly
+    google_api_key="GOOGLE_API_KEY"   # 👈 pass key directly
 )
 # -------------------
 #  Prompt Template
@@ -143,3 +143,4 @@ if __name__ == "__main__":
             config={"configurable": {"thread_id": "session1"}}
         )
         print(result["answer"])
+
