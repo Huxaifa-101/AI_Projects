@@ -33,7 +33,7 @@ An AI-powered course advisor that helps students make intelligent course decisio
 
 **Technologies Used:** FastAPI, LangChain, LangGraph, ChromaDB, Google Gemini, Hugging Face Embeddings
 
-🔗 [View IntelliCourse Advisor README](path_to_intelli_course_advisor_readme)
+🔗 [View IntelliCourse Advisor README](Intelli_Course_Advisor/README.md)
 
 ---
 
